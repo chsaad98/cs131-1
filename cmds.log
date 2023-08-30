@@ -5,3 +5,21 @@
     5  cd cs131
     6  man history
     7  history > cmds.log
+    8  ls
+    9  git nit
+   10  git init
+   11  git status
+   12  git add cmds.log
+   13  git status
+   14  git commit -m "ws1"
+   15  git config --global user.email "fnu.hasham@sjsu.edu"
+   16  git config --global user.name "Fnu Hasham"
+   17  git commit -m "ws1"
+   18  git status
+   19  git branch -M main
+   20  git push origin main
+   21  git remote add origin https://github.com/hashamfak12/cs131.git/'
+   22  clear
+   23  ls
+   24  cd cs131
+   25  history >cmds.log
