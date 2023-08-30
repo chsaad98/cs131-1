@@ -1,0 +1,7 @@
+    1  passwd
+    2  wget www.github.com
+    3  ls
+    4  mkdir cs131
+    5  cd cs131
+    6  man history
+    7  history > cmds.log
