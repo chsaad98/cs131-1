@@ -23,3 +23,35 @@
    23  ls
    24  cd cs131
    25  history >cmds.log
+   26  ls
+   27  git init
+   28  git status
+   29  git add cmds.log
+   30  git status
+   31  git commit -m "ws1"
+   32  git status
+   33  git branch -M main
+   34  git remote add origin https://github.com/hashamfak12/cs131.git
+   35  git push -u origin main
+   36  ls
+   37  mkdir ws'1
+   38  ^(
+   39  ^C
+   40  ^(
+   41  [fnu23fa@sjsu cs131]$ mkdir ws1
+   42  ^
+   43  ls
+   44  mkdir cs131
+   45  history>cmds.log
+   46  ls
+   47  history 5
+   48  history >cmds.log
+   49  ls
+   50  git init
+   51  git status
+   52  git add cmds.log
+   53  git status
+   54  ls
+   55  cd cs131
+   56  history 5
+   57  history > cmds.log
