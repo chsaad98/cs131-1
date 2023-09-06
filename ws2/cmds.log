@@ -1,0 +1,104 @@
+    1  passwd
+    2  wget www.github.com
+    3  ls
+    4  mkdir cs131
+    5  cd cs131
+    6  man history
+    7  history > cmds.log
+    8  ls
+    9  git nit
+   10  git init
+   11  git status
+   12  git add cmds.log
+   13  git status
+   14  git commit -m "ws1"
+   15  git config --global user.email "fnu.hasham@sjsu.edu"
+   16  git config --global user.name "Fnu Hasham"
+   17  git commit -m "ws1"
+   18  git status
+   19  git branch -M main
+   20  git push origin main
+   21  git remote add origin https://github.com/hashamfak12/cs131.git/'
+   22  clear
+   23  ls
+   24  cd cs131
+   25  history >cmds.log
+   26  ls
+   27  git init
+   28  git status
+   29  git add cmds.log
+   30  git status
+   31  git commit -m "ws1"
+   32  git status
+   33  git branch -M main
+   34  git remote add origin https://github.com/hashamfak12/cs131.git
+   35  git push -u origin main
+   36  ls
+   37  mkdir ws'1
+   38  ^(
+   39  ^C
+   40  ^(
+   41  [fnu23fa@sjsu cs131]$ mkdir ws1
+   42  ^
+   43  ls
+   44  mkdir cs131
+   45  history>cmds.log
+   46  ls
+   47  history 5
+   48  history >cmds.log
+   49  ls
+   50  git init
+   51  git status
+   52  git add cmds.log
+   53  git status
+   54  ls
+   55  cd cs131
+   56  history 5
+   57  history > cmds.log
+   58  ls
+   59  git init
+   60  git status
+   61  git add cmds.log
+   62  git status
+   63  git commit -m "ws1"
+   64  git status
+   65  git branch -M main
+   66  git remote add origin https://github.com/hashamfak12/cs131.git
+   67  git push -u origin main
+   68  ls
+   69  mkdir ws1
+   70  ls
+   71  mv cmds.log ws1/
+   72  ls
+   73  ls ws1
+   74  git status
+   75  git add
+   76  git add .
+   77  git commit -m "fix location of ws1 files"
+   78  git push
+   79  git push origin main
+   80  hellovim.txt
+   81  wc
+   82  vim hellovim.txt
+   83  touch
+   84  cat sample.txt
+   85  cp /datasets/taxidata.tar.gz .
+   86  ls
+   87  tar zxvf taxidata.tar.gz
+   88  grep "2019 -03-12 searchfile.txt
+   89  ls
+   90  tar zxvf taxidata.tar.gz
+   91  grep ',2019-03-12,' taxidata/*.csv
+   92  tail -20 results.txt
+   93   wc -l < results.txt >> results.txt
+   94  ls
+   95  cd cs131
+   96  mkdir ws2
+   97  ls
+   98  history > cmds.log
+   99  ls
+  100  mv results.txt cmds.log ws2/
+  101  touch results.txt
+  102  mv results.txt cmds.log ws2/
+  103  ls
+  104  history>cmds.log
