@@ -1,0 +1,119 @@
+[fnu23fa@sjsu ~]$ mkdir a1
+[fnu23fa@sjsu ~]$ cd a1
+[fnu23fa@sjsu a1]$ echo $HOME
+/mnt/scratch/fnu23fa
+
+2):
+THE HOME direcotry is mnt and to find the directory i used echo $HOME
+
+[fnu23fa@sjsu a1]$ id
+uid=1014(fnu23fa) gid=1014(fnu23fa) groups=1014(fnu23fa)
+
+3): uis is 1014(fnu23fa)
+	group is 1014(fnu23fa)
+i used the id command to find out uid  
+
+[fnu23fa@sjsu a1]$ mkdir temp
+[fnu23fa@sjsu a1]$ chmod -x temp
+[fnu23fa@sjsu a1]$ cd temp
+-bash: cd: temp: Permission denied
+
+4): i am not allow to use the cd in the directory
+[fnu23fa@sjsu a1]$ ls
+temp
+
+yes it allows me use ls command 
+
+[fnu23fa@sjsu a1]$ ls -1
+temp
+
+yes it allows me to use ls -1 
+
+[fnu23fa@sjsu a1]$ touch test.txt
+
+4); yes i can make file under directory 
+
+[fnu23fa@sjsu a1]$ mkdir temp
+mkdir: cannot create directory ‘temp’: File exists
+[fnu23fa@sjsu a1]$ mkdir temp2
+[fnu23fa@sjsu a1]$ mv temp2 temp3
+[fnu23fa@sjsu a1]$ cp -r temp3 temp4
+
+5): i am allow to copy a direcotry and to copy entire directory i used cp-r
+[fnu23fa@sjsu a1]$ ls /proc/ | grep mem
+iomem
+meminfo
+
+6): meminfo contains infpo about memory  
+
+[fnu23fa@sjsu a1]$ head /proc/meminfo
+MemTotal:       73080512 kB
+
+total memory it has 73080512 kb
+
+MemFree:        11150272 kB
+MemAvailable:   58871488 kB
+Buffers:          693760 kB
+Cached:         48376256 kB
+SwapCached:        25216 kB
+Active:         38804544 kB
+Inactive:       11217216 kB
+Active(anon):     502336 kB
+Inactive(anon):  1432576 kB
+[fnu23fa@sjsu a1]$ head /proc/cpuinfo
+processor       : 0
+cpu             : POWER8 (architected), altivec supported
+clock           : 3425.000000MHz
+revision        : 2.1 (pvr 004b 0201)
+
+processor       : 1                
+
+#head is containing 1 processor
+cpu             : POWER8 (architected), altivec supported
+clock           : 3425.000000MHz   
+
+the processor speed is 3.425 GHZ
+revision        : 2.1 (pvr 004b 0201)
+
+[fnu23fa@sjsu a1]$ tail /proc/cpuinfo
+processor       : 255
+
+8): tail is containing 255 processor
+cpu             : POWER8 (architected), altivec supported
+
+the architect name is POWER8
+
+clock           : 3425.000000MHz   
+
+the processor speed is 3.435 in GHZ
+
+revision        : 2.1 (pvr 004b 0201)
+
+timebase        : 512000000
+platform        : pSeries
+model           : IBM,8247-22L
+machine         : CHRP IBM,8247-22L
+MMU             : Hash
+[fnu23fa@sjsu a1]$ grep "cpu MHz" /proc/cpuinfo
+[fnu23fa@sjsu a1]$ cat /etc/os-release
+NAME="Red Hat Enterprise Linux"
+
+9): it is containing information under "Red hat enterprise linux"
+
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+[fnu23fa@sjsu a1]$ ls -1 /etc/os-release
