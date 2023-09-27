@@ -1,0 +1,697 @@
+    1  passwd
+    2  wget www.github.com
+    3  ls
+    4  mkdir cs131
+    5  cd cs131
+    6  man history
+    7  history > cmds.log
+    8  ls
+    9  git nit
+   10  git init
+   11  git status
+   12  git add cmds.log
+   13  git status
+   14  git commit -m "ws1"
+   15  git config --global user.email "fnu.hasham@sjsu.edu"
+   16  git config --global user.name "Fnu Hasham"
+   17  git commit -m "ws1"
+   18  git status
+   19  git branch -M main
+   20  git push origin main
+   21  git remote add origin https://github.com/hashamfak12/cs131.git/'
+   22  clear
+   23  ls
+   24  cd cs131
+   25  history >cmds.log
+   26  ls
+   27  git init
+   28  git status
+   29  git add cmds.log
+   30  git status
+   31  git commit -m "ws1"
+   32  git status
+   33  git branch -M main
+   34  git remote add origin https://github.com/hashamfak12/cs131.git
+   35  git push -u origin main
+   36  ls
+   37  mkdir ws'1
+   38  ^(
+   39  ^C
+   40  ^(
+   41  [fnu23fa@sjsu cs131]$ mkdir ws1
+   42  ^
+   43  ls
+   44  mkdir cs131
+   45  history>cmds.log
+   46  ls
+   47  history 5
+   48  history >cmds.log
+   49  ls
+   50  git init
+   51  git status
+   52  git add cmds.log
+   53  git status
+   54  ls
+   55  cd cs131
+   56  history 5
+   57  history > cmds.log
+   58  ls
+   59  git init
+   60  git status
+   61  git add cmds.log
+   62  git status
+   63  git commit -m "ws1"
+   64  git status
+   65  git branch -M main
+   66  git remote add origin https://github.com/hashamfak12/cs131.git
+   67  git push -u origin main
+   68  ls
+   69  mkdir ws1
+   70  ls
+   71  mv cmds.log ws1/
+   72  ls
+   73  ls ws1
+   74  git status
+   75  git add
+   76  git add .
+   77  git commit -m "fix location of ws1 files"
+   78  git push
+   79  git push origin main
+   80  hellovim.txt
+   81  wc
+   82  vim hellovim.txt
+   83  touch
+   84  cat sample.txt
+   85  cp /datasets/taxidata.tar.gz .
+   86  ls
+   87  tar zxvf taxidata.tar.gz
+   88  grep "2019 -03-12 searchfile.txt
+   89  cp /datasets/taxidata.tar.gz .
+   90  ls
+   91  tar zxvf taxidata.tar.gz
+   92  grep ',2019-03-12' taxidata/*.csv
+   93  ls
+   94  tail -20 results.txt
+   95  touch results.txt
+   96  ls
+   97  tail -20 results.txt
+   98  wc-1<results.txt>>results.txt
+   99  wc -1 < results.txt >> results.txt
+  100  ls
+  101  wc -1 < results.txt >> results.txt
+  102  wc --help
+  103  q
+  104  Q
+  105  clear
+  106  wc -1 <results.txt >> results.txt
+  107  ls
+  108  tar zxvf taxidata.tar.gz
+  109  grep ',2019-03-12,' taxidata/*.csv
+  110  tail -20 results.txt
+  111   wc -l < results.txt >> results.txt
+  112  ls
+  113  cd cs131
+  114  mkdir ws2
+  115  ls
+  116  history > cmds.log
+  117  ls
+  118  mv results.txt cmds.log ws2/
+  119  touch results.txt
+  120  mv results.txt cmds.log ws2/
+  121  ls
+  122  history>cmds.log
+  123  ls
+  124  touch results.txt
+  125  ls
+  126  mv results.txt cmds.log ws2/
+  127  git add ws2/
+  128  git commit -m " add results.txt and cmds.log into ws2 directory"
+  129  git push origin main
+  130  git push origin
+  131  git push origin main
+  132  ls
+  133  lll
+  134  source. bashrc
+  135  cd 131
+  136  clear
+  137  source.bashrc
+  138  ls
+  139  vim  hellovim.txt
+  140  clear
+  141  ssh fnu23fa@172.20.25.9
+  142  clear
+  143  ssh fnu23fa@172.20.25.9
+  144  vim  hellovim.txt
+  145  clear
+  146  vim file1.txt
+  147  clear
+  148   ssh fnu23fa@172.20.25.9
+  149  ls
+  150  cd
+  151  cd taxidata
+  152  ls
+  153  mkdir ~ / a1
+  154  clear 
+  155  ls
+  156  pwd
+  157  clear
+  158  ls
+  159  cd a1
+  160  pwd
+  161  echo $HOME 
+  162  id
+  163  mkdir temp
+  164  chmod - x temp
+  165  chmod -x temp
+  166  clear
+  167  ls
+  168  mkdir ~/a1
+  169  clear
+  170  ls
+  171  cd ~/a1
+  172  echo $HOME
+  173  id
+  174  mkdir temp
+  175  rmdir -r temp
+  176  rmdir temp
+  177  ls
+  178  ls -l
+  179  clear
+  180  cd ..
+  181  ls
+  182  rmdir a1
+  183  ls
+  184  clear
+  185  ls
+  186  mkdir ~/a1
+  187  cd ~/a1
+  188  echo $Home
+  189  id
+  190  mkdir temp
+  191  chmod -x temp
+  192  mkdir temp2
+  193  mv temp2 temp3
+  194  ls
+  195  ls temp3
+  196  vim temp3
+  197  clar
+  198  clear
+  199  ls
+  200  cd..
+  201  ls
+  202  mkdir ~/a1
+  203  ls
+  204  rmdir a1
+  205  rmdir -r a1
+  206  rm -r a1
+  207  ls
+  208  clear
+  209  ls
+  210  mkdir ~/a1
+  211  echo $HOME
+  212  ls
+  213  clear
+  214  mkdir ~/a1
+  215  rmdir ~/a1
+  216  clear
+  217  mkdir ~/a1
+  218  ls
+  219  cd a1
+  220  rmdir ~/a1
+  221  clear
+  222  mkdir ~/a1
+  223  ls
+  224  clear
+  225  ls
+  226  clear
+  227  mkdir ~/a1
+  228  rmdir ~/a1
+  229  clear
+  230  mkdir ~/a1
+  231  ls
+  232  cd a1
+  233  echo $HOME
+  234  id
+  235  mkdir temp
+  236  chmod -x temp
+  237  ls
+  238  mkdir temp2
+  239  mv temp2 temp3
+  240  ls
+  241  cp -r temp temp3
+  242  ls /proc/ | grep mem
+  243  ls /proc/ |grep cpu
+  244  head /proc/meminfo
+  245  cat /proc/cpuinfo
+  246  cat /etc/os-release
+  247  ls -l /etc/os-release
+  248  mkdir ~/a1
+  249  rmdir ~/a1
+  250  ls
+  251  mkdir ~/a1
+  252  rmdir
+  253  rmdir ~/a1
+  254  clear
+  255  mkdir ~/a1
+  256  rmdir ~/a1
+  257  rm -r a1
+  258  ls
+  259  clear
+  260  mkdir ~/a1
+  261  ls
+  262  cd a1
+  263  echo $HOME
+  264  id
+  265  mkdir temp
+  266  chmod -x temp
+  267  cd
+  268  ls
+  269  ls -l
+  270  mkdir temp2
+  271  mv temp2 temp3
+  272  ls
+  273  cp -r temp2 temp3
+  274  cp -r temp temp3
+  275  ls /proc/ | grep mem
+  276  ls /proc/ |grep cpu
+  277  head /proc/meminfo
+  278  cat /proc/cpuinfo
+  279  cat /etc/os-release
+  280  ls -l /etc/os-release
+  281  vi a1
+  282  rmdir ~/a1
+  283  rm -r a1
+  284  mkdir a1
+  285  clear
+  286  mkdir a1
+  287  rm -r a1
+  288  ls
+  289  mkdir a1
+  290  ls
+  291  clear
+  292  mkdir a1
+  293  rm -r a1
+  294  ls
+  295  clear
+  296  mkdir a1
+  297  cd a1
+  298  echo $HOME
+  299  id
+  300  mkdir temp
+  301  chmod -x temp
+  302  cd a1
+  303  ls
+  304  ls -l
+  305  touch lund.txt
+  306  mkdir temp2
+  307  mv temp2 temp3
+  308  ls
+  309   cp -r temp temp3
+  310   ls /proc/ | grep mem
+  311   ls /proc/ |grep cpu
+  312   head /proc/meminfo
+  313   cat /proc/cpuinfo
+  314   cat /etc/os-release
+  315   ls -l /etc/os-release
+  316  vi a1.txt
+  317   vim a1.txt
+  318  vim a1.txt
+  319  mkdir a1
+  320  rm -r
+  321  rm -r a1
+  322  ls
+  323  clear
+  324  mkdir a1
+  325  rm -r a1
+  326  clear
+  327  mkdir ~/a1
+  328  ls
+  329  cd a1
+  330  echo $HOME
+  331  id
+  332  mkdir temp
+  333  chmod -r 
+  334  chmod -r temp
+  335  cd temp
+  336  clear
+  337  rm -r a1
+  338  rm -r temp
+  339  ls]
+  340  ls
+  341  clear
+  342  cleatr
+  343  clear
+  344  mkdir ~/a1
+  345  rm -r a1
+  346  clear
+  347  mkdir
+  348  clear
+  349  mkdir ~/a1
+  350  cd a1
+  351  echo $HOME
+  352  id
+  353  group
+  354  groups
+  355  clear
+  356  rm -r a1
+  357  ls
+  358  rm -r a1
+  359  clear
+  360  mkdir ~/a1
+  361  cd a1
+  362  echo $HOME
+  363  id -r
+  364  id
+  365  clear
+  366  rm -r a1
+  367  cd ..
+  368  rm -r a1
+  369  ls
+  370  clear
+  371  mkdir ~/a1
+  372  cd a1
+  373  echo $HOME
+  374  id
+  375  groups
+  376  mkdir temp
+  377  chmod -r temp
+  378  cd temp
+  379  ls
+  380  ls -l temp
+  381  touch temp/newfile.txt
+  382  touch newfile.txt
+  383  ls
+  384  ls -l
+  385  ls -l temp
+  386  ls -l
+  387  clear
+  388  al
+  389  cd ..
+  390  rm -r a1
+  391  ls
+  392  cd ..
+  393  ls
+  394  rm a1
+  395  rm -r a1
+  396  sudo rm -r a1
+  397  ls
+  398  cd a1
+  399  echo $HOME
+  400  id
+  401  mkdir temp
+  402  ls
+  403  rm -r temp
+  404  rmdir temp
+  405  mv temp -/
+  406  mv temp ~/temp
+  407  ls
+  408  cd ..
+  409  rm -r a1
+  410  ls
+  411  rm -r temp
+  412  rmdir temp
+  413  rem -r temp
+  414  temp -r temp
+  415  ls
+  416  ls temp
+  417  cd temp
+  418  ls
+  419  cd ..
+  420  ls
+  421  rm temp 
+  422  clear
+  423  mkdir a1
+  424  cd a1
+  425  echo $HOME
+  426  id
+  427  ls
+  428  mkdir temp1
+  429  clear
+  430  al
+  431  cd ..
+  432  ls
+  433  rm -r a1
+  434  ls
+  435  rm -r temp
+  436  clear
+  437  ls
+  438  cd a1
+  439  echo $HOME
+  440  id
+  441  groups
+  442  mkdir temp
+  443  ls
+  444  cd temp
+  445  clear
+  446  cd a1
+  447  clear
+  448  cd..
+  449  cd...
+  450  rm -r a1
+  451  rm -r temp
+  452  ls
+  453  cd a1
+  454  echo $HOME
+  455  id
+  456  chmod -r temp
+  457  cd temp
+  458  cd.. temp
+  459  cd..
+  460  dd
+  461  rm -r a1
+  462  ls
+  463  rmdir a1
+  464  rm -r a1
+  465  ls
+  466  rm temp3
+  467  rm -r temp3
+  468  rm -r a1
+  469  rm -r temp
+  470  cd ..
+  471  rm -r a1
+  472  cd..
+  473  clear
+  474  rm -r a1
+  475  mkdir a1
+  476  cd a1
+  477  echo $HOME
+  478  id
+  479  mkdir temp
+  480  chmod -x temp
+  481  cd temp
+  482  ls
+  483  ls -1
+  484  ls
+  485  cd ..
+  486  clear
+  487  mkdir ~/a1
+  488  rm - r a1
+  489  rm -r temp
+  490  cd..
+  491  mkdir ~/a1
+  492  ls
+  493  rm -r a1
+  494  ls
+  495  rm -r temp
+  496  clear
+  497  mkdir ~/a1
+  498  cd a1
+  499  echo $HOME
+  500  id
+  501  groups
+  502  mkdir temp
+  503  chmod -r temp
+  504  cd temp
+  505  ls
+  506  rm -r a1
+  507  rm -rf temp
+  508  clear
+  509  mkdir a1
+  510  cd a1
+  511  echo $HOME
+  512  id
+  513  mkdir temp
+  514  clear
+  515  ls
+  516  cd ..
+  517  rm -r temp
+  518  rm -rf temp
+  519  mv temp ~/temp
+  520  cd a1
+  521  mv temp ~/temp
+  522  ls
+  523  clear
+  524  ls
+  525  cd ..
+  526  ls
+  527  rm -rf a1
+  528  ls
+  529  clear
+  530  mkdir a1
+  531  cd a1
+  532  echo $HOME
+  533  id
+  534  mkdir temp1
+  535  chmod -x temp1
+  536  cd temp1
+  537  ls
+  538  ls -1
+  539  clear
+  540  ls
+  541  mv temp ~/temp
+  542  mv temp1 ~/temp1
+  543  ls
+  544  cd ..
+  545  clear
+  546  rm -r a1
+  547  clear
+  548  mkdir a1
+  549  cd a1
+  550  echo $HOME
+  551  id
+  552  mkdir temp
+  553  chmod -x temp
+  554  cd temp
+  555  ls
+  556  ls -1
+  557  touch test.txt
+  558  mkdir temp
+  559  mkdir temp2
+  560  mv temp2 temp3
+  561  cp -r temp3 temp4
+  562  ls /proc/ | grep mem
+  563  head /proc/meminfo
+  564  head /proc/cpuinfo
+  565  tail /proc/cpuinfo
+  566  grep "cpu MHz" /proc/cpuinfo
+  567  cat /etc/os-release
+  568  ls -1 /etc/os-release
+  569  vi a1.txt
+  570  ls
+  571  cd ..
+  572  ls
+  573  mv a1 cs131
+  574  git add a1
+  575  ls
+  576  cd cs131
+  577  git add a1
+  578  git commit -m "a1.txt file"
+  579  git push origin main
+  580  ps aux
+  581  ps -afjx| grep init
+  582  echo $?
+  583  wc a.txt
+  584  cat a.txt
+  585  touch a.txt
+  586  cat a.txt
+  587  vim a.txt
+  588  wc a.txt
+  589  % echo "12+5" | bc
+  590  % echo "12+5"
+  591  for i in { 1..5}; do echo "hello" done; for i in {1..5}; do echo  "hello" ; done
+  592  ls
+  593  l
+  594  w
+  595  :q
+  596  :x
+  597  clear
+  598  nano ~/.bashrc
+  599  l
+  600  w
+  601  :q
+  602  clear
+  603  l
+  604  clear
+  605  nano ~/.bashrc
+  606  l
+  607  source ~/.bashrc
+  608  l
+  609  w
+  610  cd taxidata
+  611  ls
+  612  mkdir ws4
+  613  mkdir FARE
+  614  s
+  615  ls
+  616  awk -F, '$8 == 48.0 && $9 == 161.0 { print $10 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  617  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  618  awk -F, '$8 == 50.0 && $9 == 162.0 { print $12 }' 2019-06.csv > ws4/FARE/50.0-162.0.txt
+  619  clear
+  620  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  621  ls
+  622  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  623  clear
+  624  ls
+  625  vi 2019-06.csv
+  626  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  627  clear
+  628  ls
+  629  rmdir FARE
+  630  ls
+  631  cd ws4
+  632  mkdir FARE
+  633  ls
+  634  cd ..
+  635  awk -F, '$8 == 48.0 && $9 == 161.0 { print $12 }' 2019-06.csv > ws4/FARE/48.0-161.0.txt
+  636  awk -F, '$8 == 50.0 && $9 == 162.0 { print $12 }' 2019-06.csv > ws4/FARE/50.0-162.0.txt
+  637  ls
+  638  cat ws4/FARE/48.0-161.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' > ws4.txt
+  639  cat ws4/FARE/50.0-162.0.txt | paste -sd+ - | bc -lq | awk '{ print $0 }' >> ws4.txt
+  640  ls
+  641  vi ws4.txt
+  642    history > cmds.log
+  643  ls
+  644  mv ws4 ../
+  645  mv cmds.log ../
+  646  mv ws4.txt ../
+  647  ls
+  648  cd ..
+  649  ls
+  650  mv ws4.txt cs131
+  651  mv cmds.log cs131
+  652  mv ws4 cs131
+  653  ls
+  654  cs 131
+  655  cd cs11
+  656  cd cs131
+  657  ls
+  658  vi cmds.log
+  659  ls
+  660  git add ws4/FARE/48.0-161.0.txt
+  661  git add ws4.txt
+  662  git add cmds.log
+  663  git commit -m "Calculations"
+  664  git push origin main
+  665  ls
+  666  wc -l results.txt >> results.txt
+  667  ls
+  668  ls
+  669  tar zxvf taxidata.tar.gz
+  670  ls
+  671  cd taxidata
+  672  vi 2019-03.csv 
+  673  grep "2019-03-12" 2019-03.csv
+  674  grep "2019-3-12" 2019-03.csv
+  675  grep "2019-03-12" 2019-03.csv
+  676  tail -20 2019-03.csv > result.txt
+  677  vi result.txt
+  678  result.txt > gandu
+  679  result >> gandu.txt
+  680  wc -1 >>result.txt
+  681  wc >> result.txt
+  682  wc -l results.txt >> results.txt
+  683  wc -1 >> result.txt
+  684  ls
+  685  vi results.txt
+  686  wc - 1 >> result.txt
+  687  mkdir practice
+  688  clear
+  689  mkdir gitpractice
+  696  ls
+  697  cd taxidata
+  698  ls
+  699  grep '2019-05-11' 2019-05.csv | awk -F ',' '{ sum += $17 } END { print sum / NR }'
+  700  grep '2019-05-11' 2019-05.csv | awk -F ',' '{print $17}' |sort -n | tail -n 1
+  701  grep '2019-05-' 2019-05.csv | awk -F ',' '$4 >= 3 {print $9}' | sort | uniq -c | sort -nr | head -n 10 
+  702  awk -F',' '$2 ~ /2019/ { pickup[$8]++ } END { for (loc in pickup) print loc, pickup[loc] | "sort -t, -k2 -nr | head -1" }' 2019-05.csv
+  703  history > cmds.log
